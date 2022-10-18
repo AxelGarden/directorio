@@ -1,0 +1,227 @@
+*
+{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+}
+header h1
+{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+main section form
+{
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+main
+{
+
+    width: 100vw;
+    height: auto;
+    padding: top 30px; ;
+    background-color: aliceblue;
+}
+
+main .formulario 
+{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+main .formulario h2
+{
+    margin-bottom: 30px;
+    color: rgb(229, 128, 92);
+}
+main .formulario form
+{
+    display:  flex;
+    flex-direction: column;
+}
+
+main .formulario form label
+{
+    width: 400px;
+    height: 35px;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+main .formulario form label input
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(252, 252, 252);
+}
+
+main .formulario form div 
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .formulario form div button
+{
+
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #eee;    
+}
+
+main .formulario form #btnGuardar
+{
+    position: relative;
+    right:  20px;
+    background-color: darkgreen;
+}
+
+main .formulario form #btnCancelar
+{
+    position: relative;
+    left: 20px;
+    background-color: darkred;
+}
+
+main .lista
+{
+    width:  100%;
+    height: 200px;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main .lista .listaAmigos div
+{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .lista .listaAmigos div p
+{
+    font-weight:bold;
+    color: darkslategray;
+    
+}
+
+main .lista .listaAmigos div button
+{
+    width:  150px;
+    height: 50px;
+    border: none;
+    border-radius:5px;
+    background-color:darkcyan;
+    color: #eee;
+    cursor: pointer;
+}
+main .lista .listaAmigos div button
+{
+    width:  150px;
+    height: 50px;
+    border: none;
+    border-radius:5px;
+    background-color:darkcyan;
+    color: #eee;
+    cursor: pointer;
+}
+main .lista .listaAmigos div .delete
+{
+    width:  150px;
+    height: 50px;
+    border: none;
+    border-radius:5px;
+    background-color:darkred;
+    color: #eee;
+    cursor: pointer;
+}
+
+.detallesAmigo
+{ 
+    width: 800px;
+    height: 800px;
+    top: calc(50vh - 400px);
+    left: calc(50vw - 400px);
+    background-color: #eee;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius:10px ;
+
+}
+
+.detallesAmigo img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.detallesAmigo h3
+{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.detallesAmigo p span
+{
+font-weight: bold;
+font-style: italic;
+}
+.detallesAmigo button
+{
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    background-color: darkslategray;
+    color: azure;
+    border-radius: 19px;
+    cursor: pointer;
+
+}
+
+.oculto
+{
+    display: none;
+}
+
+
