@@ -163,17 +163,21 @@ function eliminar(tel)
 {
 event.preventDefault();
 //alert("hola");
+let contador=0;
 
-// for(let i = amigos.length -1; i>=0;  i++)
-//         {
-//             if(amigos.telefono==tel)
+ for(let i=0; i<amigos.length; i++)
+         {
+           // alert(i);
+            //alert(tel);
+           if(amigos[i].telefono==tel)
+           {
+            alert("si entro");
+            amigos.splice(i);
+            pintar();
 
-//             {
-//               //  amigos.splice(i);
-//                 pintar();
-//             }
+           }
 
-//         }   
+         }   
 
 }
 
