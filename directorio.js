@@ -171,8 +171,8 @@ let contador=0;
             //alert(tel);
            if(amigos[i].telefono==tel)
            {
-            alert("si entro");
-            amigos.splice(i);
+           // alert("si entro");
+            amigos.splice(i,1);
             pintar();
 
            }
